@@ -27,46 +27,61 @@ export function Mainheaderlist() {
   return (
     <div className="mainlist">
       <div className="menu">
-        <div className="icon">
-          <AssignmentIcon />
-        </div>
-        <p>Articles</p>
+        <a href="https://css-tricks.com/archives/">
+          <div className="icon">
+            <AssignmentIcon />
+          </div>
+          <p>Articles</p>
+        </a>
+      </div>
+
+      <div className="menu">
+        <a href="https://css-tricks.com/video-screencasts/">
+          <div className="icon">
+            <VideocamIcon />
+          </div>
+          <p>Videos</p>
+        </a>
       </div>
       <div className="menu">
-        <div className="icon">
-          <VideocamIcon />
-        </div>
-        <p>Videos</p>
+        <a href="https://css-tricks.com/almanac/">
+          <div className="icon">
+            <LibraryBooksIcon />
+          </div>
+          <p>Almanac</p>
+        </a>
       </div>
       <div className="menu">
-        <div className="icon">
-          <LibraryBooksIcon />
-        </div>
-        <p>Almanac</p>
+        <a href="https://css-tricks.com/newsletters/">
+          <div className="icon">
+            <EmailIcon />
+          </div>
+          <p>Newsletter</p>
+        </a>
       </div>
       <div className="menu">
-        <div className="icon">
-          <EmailIcon />
-        </div>
-        <p>Newsletter</p>
+        <a href="https://css-tricks.com/guides/">
+          <div className="icon">
+            <MapIcon />
+          </div>
+          <p>Guides</p>
+        </a>
       </div>
       <div className="menu">
-        <div className="icon">
-          <MapIcon />
-        </div>
-        <p>Guides</p>
+        <a href="https://css-tricks.com/books/">
+          <div className="icon">
+            <MenuBookIcon />
+          </div>
+          <p>Books</p>
+        </a>
       </div>
       <div className="menu">
-        <div className="icon">
-          <MenuBookIcon />
-        </div>
-        <p>Books</p>
-      </div>
-      <div className="menu">
-        <div className="icon">
-          <AccountCircleIcon />
-        </div>
-        <p>Account</p>
+        <a href="https://css-tricks.com/product/membership/">
+          <div className="icon">
+            <AccountCircleIcon />
+          </div>
+          <p>Account</p>
+        </a>
       </div>
       <div>
         <input type="box" value="e.g flex box" />

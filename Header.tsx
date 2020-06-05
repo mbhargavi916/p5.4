@@ -11,7 +11,6 @@ export function Header(props) {
           alt="image"
           width="25px"
           height="25px"
-          color="orangered"
         />
         {props.name}
       </a>

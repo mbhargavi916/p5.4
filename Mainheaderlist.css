@@ -22,9 +22,16 @@
   border-left: 0.1px solid rgb(185, 174, 174);
   border-right: 0.1px solid rgb(185, 174, 174);
 }
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  background-color: #201c29;
+}
 input {
   height: 40px;
-  width: 350px;
+  width: 250px;
   border-radius: 25px;
   padding-left: 20px;
   margin-left: 25px;

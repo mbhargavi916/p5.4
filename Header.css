@@ -1,9 +1,11 @@
 .title {
-  align-items: center;
+  display: flex;
   font-size: 40px;
-  padding: 20px;
+  padding: 40px;
   padding-right: 80px;
   font-weight: 400;
+  color: #fff;
+  background-color: black;
   color: #fff;
 }
 .title a {
