@@ -1,0 +1,15 @@
+.title {
+  align-items: center;
+  font-size: 40px;
+  padding: 20px;
+  padding-right: 80px;
+  font-weight: 400;
+  color: #fff;
+}
+.title a {
+  text-decoration: none;
+  color: #fff;
+}
+.logoimage {
+  color: orangered;
+}

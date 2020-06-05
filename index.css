@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+.header {
+  display: flex;
+
+  background-color: black;
+  color: #fff;
+  border-bottom: 0.1px solid rgb(185, 174, 174);
+}

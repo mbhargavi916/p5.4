@@ -1,0 +1,39 @@
+.mainlist {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border-right: 1px solid #201c29;
+  color: #fff;
+}
+.mainlist p {
+  text-align: center;
+}
+.icon {
+  color: rgb(236, 103, 55);
+}
+.menu {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  border-left: 0.1px solid rgb(185, 174, 174);
+  border-right: 0.1px solid rgb(185, 174, 174);
+}
+input {
+  height: 40px;
+  width: 350px;
+  border-radius: 25px;
+  padding-left: 20px;
+  margin-left: 25px;
+  position: relative;
+  border: 0.1px solid rgb(185, 174, 174);
+  background-color: #201c29;
+  color: #fff;
+}
+button {
+  background-color: rgb(236, 103, 55);
+  color: #fff;
+}
